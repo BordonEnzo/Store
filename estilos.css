@@ -6,10 +6,12 @@ body{
 
 
 header, footer, section{
-    width: 960px;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 
 
@@ -123,7 +125,7 @@ footer{
 
 
 #newcaja{
-    width: 960px;
+    width: 100vw;
     margin-top: 30px;
     margin-bottom: 30px;
     
@@ -151,21 +153,21 @@ h4 {
   }
 
 #carouselproductos{
-    width: 940px;
+    width: 100vw;
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #000090;
     
 }
 #carouselproductos2{
-    width: 940px;
+    width: 100vw;
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #000090;
     
 }
 #carouselproductos3{
-    width: 940px;
+    width: 100vw;
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #000090;
