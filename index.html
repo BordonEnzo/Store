@@ -6,497 +6,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cybernetics</title>
-    <link rel="stylesheet" href="owl.carousel.min.css">
-    <link rel="stylesheet" href="owl.theme.default.min.css">
-    <!-- CSS Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    
-     <!-- CSS Propio -->
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="fuentes.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <script type="text/javascript" src="js/preguntas.js"></script>
+    
 </head>
-<body>
-    <section>
-            <!-- Comienzo Menu Bootstrap -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                      <img src="images/marca1.jpg" alt="logo" width="150px">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://elearningproyectoutn.000webhostapp.com/unidad12">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#informacion">Contacto</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Productos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
-                          <li><a class="dropdown-item" href="#newcaja">Monitores</a></li>
-                          <li><a class="dropdown-item" href="#moduloproduct">Teclados</a></li>
-                          <!-- <li><hr class="dropdown-divider"></li> -->
-                          <li><a class="dropdown-item" href="#moduloproduct3">Pc's Armadas</a></li>
-                        </ul>
-                      </li>
+  <body>
+                  <header>
+                    <!-- INICIO LOGO -->
+                    <div class="logo"></div>
+                    <!-- FIN LOGO -->
+                    <div>
+                       <!-- BARRA DE BUSQUEDA -->
+                        <form class="barra-busqueda">
+                            <input type="search" placeholder="Buscar">
+                            <button type="submit">Buscar</button>
+                        </form>
+                        <!-- FIN DE LA BARRA DE BUSQUEDA -->
+                    </div>
+                  </header>
 
-                      <li class="nav-item disabled">
-                        <a class="nav-link"></a>
-                      </li>
-
-                    </ul>
-
-                    <!-- Redes sociales -->
-
-                    <div class="social-buttons">
-                      <a href="https://www.facebook.com/" target="blank_" class="social-buttons__button social-button social-button--facebook">
-                      <span class="social-button__inner">
-                      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
-                      </span>
-                      </a>
-                      <a href="https://twitter.com/?lang=es" target="blank_" class="social-buttons__button social-button social-button--twitter">
-                      <span class="social-button__inner">
-                      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
-                      </span>
-                      </a>
-                      <a href="https://www.instagram.com/" target="blank_" class="social-buttons__button social-button social-button--instagram">
-                      <span class="social-button__inner">
-                      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
-                      </span>
-                      </a>
-                      <a href="https://www.youtube.com/" target="blank_" class="social-buttons__button social-button social-button--youtube">
-                      <span class="social-button__inner">
-                      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
-                      </span>
-                      </a>
+                  <nav class="menu-principal">
                       
-                     
-                     </div>
-                     
-                    <!-- Fin Redes sociales -->
-
-                    <!-- Barra de busqueda -->
-                    <form class="d-flex">
-                      <input style="margin-left: 30px;" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                  </div>
-                </div>
-                  <!-- Fin Barra de busqueda -->
+                    <div>
+                      <ul>
+                        <li><a href="" style="margin-left: 1.5rem;">categorias</a></li>
+                      </ul>
+                    </div>
+                      <div>
+                        <ul>
+                          <li><a href="">crear cuenta</a></li>
+                          <li><a href="">ingresar</a></li>
+                          <li><a href="">mis compras</a></li>
+                        </ul>
+                      </div>
+                  </nav> 
+                <section>
+                   
             </nav>
-            <!-- Fin menu Bootstrap -->
-    </section>
-   
+            
+        </section>
+            <div class="carrusel">
+              <div  class="contenedor-carrusel">
+                <div class="publicidad_principal"></div>
+                <div class="publicidad_principal2"></div>
+                <div class="publicidad_principal3"></div>
+              </div>
+            </div>
+
 
   
-      <section>
+        <section>
         <!-- Carrusel de anuncios -->
-        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                 <img src="images/anuncio.jpeg" class="d-block w-100 img_banner"  alt=""> 
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="images/anunciocorsair.jpeg" class="d-block w-100 img_banner"  alt="" >
-              </div>
-              <div class="carousel-item">
-                <img src="images/publicidadmonitor.jpg" class="d-block w-100 img_banner" alt="" >
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-      </section>
-      
-          <!-- fin del carrusel de anuncios -->
         
-        <section class="newcaja" class="container-fluid">
-          <div class="row" id="modulo_cont">
-            <div class="col-lg-12" id="c1">
-              <div class="owl-container">
-                <div class="productos-1 owl-carousel owl-theme">
-                  <div class="item">
-                      <div class="card border-0 shadow-lg m-4 pt-0" style="width: 12rem; height: 13rem;">
-                           <img src="images/logitech.png" class="img-fluid" style=" height:200px" alt="...">
-                           <div class="card-body">
-                             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                           </div>
-                      </div>
-                  </div>
-
-                  <div class="item">
-                     <div class="card border-0 shadow-lg m-4 pt-0 bg-dark " style="width: 12rem; height: 13rem;">
-                         <img src="images/hyperX.jpg" class="img-fluid" style=" height:200px" alt="...">
-                         <div class="card-body">
-                              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                         </div>
-                         </div>
-                  </div>
-
-                  <div class="item">
-                     <div class="card border-0 shadow-lg m-4 pt-0" style="width: 12rem; height: 13rem;">
-                       <img src="images/nvidia.png" class="img-fluid" style=" height:200px" alt="...">
-                       <div class="card-body">
-                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                       </div>
-                       </div>
-                  </div>
-
-                  <div class="item">
-                      <div class="card border-0 shadow-lg m-4 pt-0 bg-dark" style="width: 12rem; height: 13rem;">
-                         <img src="images/corsair.jpg" class="img-fluid" style=" height:200px" alt="...">
-                         <div class="card-body">
-                          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                         </div>
-                      </div>
-                  </div>
-
-                  <div class="item">
-                      <div class="card border-0 shadow-lg m-4 pt-0 bg-primary" style="width: 12rem; height: 13rem;">
-                        <img src="images/intel.jpg" class="img-fluid" style=" height:200px" alt="...">
-                        <div class="card-body">
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        </div>
-                      </div>
-                  </div>
-
-                  <div class="item">
-                       <div class="card border-0 shadow-lg m-4 pt-0" style="width: 12rem; height: 13rem;">
-                          <img src="images/amd.jpg" class="img-fluid" style=" height:200px" alt="...">
-                          <div  div class="card-body">
-                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                          </div>
-                       </div>
-                  </div>
-
-                  <div class="item">
-                      <div class="card border-0 shadow-lg m-4 pt-0 bg-dark" style="width: 12rem; height: 13rem;">
-                          <img src="images/aorus.jpg" class="img-fluid" style=" height:200px" alt="...">
-                          <div class="card-body">
-                              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                          </div>
-                      </div>
-                  </div>
-                </div>
-              </div> 
-            </div>
-          </div>
-        </section>
-            
-                 
-    <section></section>
-    <section>
-    <h4>Monitores</h4>
-    </section>
-     <section id="carouselproductos">
-      <div class="row" id="moduloproduct">
-        <div class="col-lg-12" id="catpcs">
-          <div class="owl-container">
-            <div class="productos-2 owl-carousel owl-theme">
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/monitor2.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$27999</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/monitora.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$34000</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/monitor-19-philips.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$25000</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/monitor-215-philips-led.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$37000</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/monitor-22-cx.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$26500</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/monitor-20-acer.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$29500</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     </section>
-     <section><h4>Teclados</h4></section> 
-     
-     <section id="carouselproductos2">
-      <div class="row" id="moduloproduct2">
-        <div class="col-lg-12" id="catpcs2">
-          <div class="owl-container">
-            <div class="productos-3 owl-carousel owl-theme">
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/teclado-logitech-g915.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$14456</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/teclado-logitech-g915-ASDSA.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$13456</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/teclado-corsair-k70-rgb-mk2.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$11456</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/teclado-corsair-k70-rgb-mk2-gaming.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$16456</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/kit-corsair-teclado.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$18456</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/teclado-gamer-razer-blackwidow.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$18456</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     </section>
-     <section>
-      <h4>Pc's armadas</h4>
-     </section>
-     
-     <section id="carouselproductos3">
-      <div class="row" id="moduloproduct3">
-        <div class="col-lg-12" id="catpcs3">
-          <div class="owl-container">
-            <div class="owl-carousel owl-theme">
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/pc1.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$74756</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/pc2.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$85395</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/pc3.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$95395</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/pc4.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$80234</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/pc5.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$120.345</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card shadow-lg m-5" style="height: 19rem; width: 12rem;">
-                  <img src="images/pc6.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ARS$130.213</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     </section>
+      
+        <!-- fin del carrusel de anuncios -->
+        
+ 
 
 
   
     
     <footer>
-         
 
-        
-      <div class="row"  >
-        <div class="col-lg-3" id="newsletter">
-          <h3 style="color: aliceblue;">Newsletter</h3>
-          <p style="color: aliceblue;" class="mb-0">Recibí ofertas en tu email</p>
-          <hr>
-          <form>
-            
-            <div class="mb-3">
-              
-              <input type="text" name="nombre" class="form-control" placeholder="Nombre" maxlength="40" required>
-            </div>
-            <div class="mb-3">
-              <input type="email" name="correo" class="form-control" placeholder="Correo Electrónico" required>  
-              <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
-            </div>
-            <button type="submit" class="btn btn-primary">Suscribirme</button>
-          </form>
-       </div>
-       <div class="col-lg-6" id="dondeestamos">
-        <h3 style="color: aliceblue;">¿Dónde estamos?</h3>
-        <hr>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113288.85421075333!2d-59.06538554251382!3d-27.460643983004207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c62a6f5f70b%3A0xf03ac86511c2cd6d!2sResistencia%2C%20Chaco!5e0!3m2!1ses-419!2sar!4v1650020714498!5m2!1ses-419!2sar" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       
-   </div>
-       <div class="col-lg-3" id="informacion">
-            <h5 style="color: aliceblue;" >INFORMACIÓN</h5>
-          
-            <ul class="links-vertical" style="margin-top: 40px;">
-                <li>
-                  <a href="#">Inicio</a>
-                </li>
-                <li>
-                  <a href="#">Contacto</a>
-                </li>
-                <li>
-                  <a href="#">¿Dónde estamos?</a>
-                </li>
-                <li>
-                  <a href="#">Politicas de privacidad</a>
-                </li>
-                <li>
-                  <a href="#">Arrepentimiento de compra</a>
-                </li>
-            </ul>
-       </div>
-       <!-- <div class="col-lg-3" id="redes"></div> -->
-       
-      
-  </div>
-            
-           
-       
-     
+      <div class="contenedor-footer">
 
 
+          <div style="width: 9rem;">
+              <ul style="list-style: none; text-decoration: none; color: #fff; margin-top: 5rem;">
+                <li><p>Atención al cliente</p></li>
+                <li><p>0800 123 4567</p></li>
+                <li></li>
+              </ul>
 
+          </div>
+
+          <div class="newsletter">
+                
+                <form class="barra-newsletter">
+                   <h1 style="font-size: 3rem;">newsletter</h1>
+                   <h4 style="font-size: .8rem;">SÉ EL PRIMERO EN ENTERARTE</h1>
+                   <h4 style="font-size: .8rem;">Suscribite y recibí las mejores promos!</h1>
+                  <input style="margin-top: 1rem;" type="search" placeholder="dirección de email">
+                  <button type="submit">Enviar</button>
+                </form>
+                
+          </div>
+          <div class="mapa">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56644.421232456436!2d-59.03663059624444!3d-27.46065541366886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c62a6f5f70b%3A0xf03ac86511c2cd6d!2sResistencia%2C%20Chaco!5e0!3m2!1ses-419!2sar!4v1718493338495!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </div>
+
+      </div>
 
     </footer>
    
-    <script src="jquery.min.js"></script>
-    <script src="owl.carousel.min.js"></script>
-    <script src="main.js"></script>
-    
-    <script type="text/javascript" src="js/dom.js"></script> 
-
-    
-
-    
-   
-    <!-- JS bootstrap  -->
-     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+      
 </body>
 </html>
